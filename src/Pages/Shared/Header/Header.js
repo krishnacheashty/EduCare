@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import "./Header.css"
 
 const Header = () => {
     return (
-        <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+        <div className='header'>
+            <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
                 <Container>
                     <Navbar.Brand href="/home"><h1 className="text-success">EduCare</h1></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -38,7 +39,7 @@ const Header = () => {
                 </Container>
             </Navbar>
 
-        </>
+        </div>
     );
 };
 
