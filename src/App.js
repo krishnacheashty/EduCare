@@ -36,7 +36,6 @@ function App() {
             <Athletics></Athletics>
           </Route>
 
-
           <Route path="/*">
             <NotFound></NotFound>
           </Route>
