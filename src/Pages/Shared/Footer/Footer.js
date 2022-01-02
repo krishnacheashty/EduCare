@@ -48,7 +48,7 @@ const Footer = () => {
                                     <a className="nav-link text-white" href="/home">Contact & Support</a>
                                 </li>
                                 <li className="nav-item">
-                                    <span className="nav-link text-white"><i className="fas fa-phone"></i> +47 45 80 80 80</span>
+                                    <span className="nav-link text-white"><i className="fas fa-phone"></i> +00 00 00 00 00</span>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link text-white" href="/home"><i className="fas fa-comments"></i> Live chat</a>
