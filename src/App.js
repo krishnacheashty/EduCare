@@ -20,7 +20,6 @@ function App() {
             <Home></Home>
           </Route>
 
-
           <Route path="/*">
             <NotFound></NotFound>
           </Route>
