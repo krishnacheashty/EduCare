@@ -4,6 +4,7 @@ import Arts from './Pages/Academic/Arts/Arts';
 import Athletics from './Pages/Academic/Athletics/Athletics';
 import Middle from './Pages/Academic/Middle/Middle';
 import Upper from './Pages/Academic/Upper/Upper';
+import Admission from './Pages/Admission/Admission';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
@@ -34,6 +35,10 @@ function App() {
           </Route>
           <Route path="/athletics">
             <Athletics></Athletics>
+          </Route>
+
+          <Route path="/admission">
+            <Admission></Admission>
           </Route>
 
           <Route path="/*">
