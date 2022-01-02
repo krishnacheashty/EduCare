@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Teacher = ({ teacher }) => {
+const AcademicTeacher = (teacher) => {
     return (
-
-        <div className='col-md-4 feedback-card mb-4'>
+        <div>
+           <div className='col-md-4 feedback-card mb-4'>
             <div className='d-flex flex-column text-left mb-4 card h-100 p-3'>
                 <div className='d-flex align-items-center mb-2'>
 
@@ -23,10 +23,9 @@ const Teacher = ({ teacher }) => {
                 </div>
                 
             </div>
+        </div> 
         </div>
-
-
     );
 };
 
-export default Teacher;
+export default AcademicTeacher;

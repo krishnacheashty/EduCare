@@ -1,5 +1,9 @@
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
+import Arts from './Pages/Academic/Arts/Arts';
+import Athletics from './Pages/Academic/Athletics/Athletics';
+import Middle from './Pages/Academic/Middle/Middle';
+import Upper from './Pages/Academic/Upper/Upper';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
@@ -18,6 +22,18 @@ function App() {
 
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/upper">
+            <Upper></Upper>
+          </Route>
+          <Route path="/middle">
+            <Middle></Middle>
+          </Route>
+          <Route path="/arts">
+            <Arts></Arts>
+          </Route>
+          <Route path="/athletics">
+            <Athletics></Athletics>
           </Route>
 
 
