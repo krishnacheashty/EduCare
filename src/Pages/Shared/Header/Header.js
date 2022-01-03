@@ -21,8 +21,8 @@ const Header = () => {
                             </NavDropdown>
                             <Nav.Link as={HashLink} to="/admission"><i class="fas fa-users"></i> ADMISSION</Nav.Link>
                             <NavDropdown title={<span><i class="far fa-calendar-check"></i> EVENTS</span>} id="navbarScrollingDropdown">
-                                <NavDropdown.Item as={HashLink} to="#action3">EVENT1</NavDropdown.Item>
-                                <NavDropdown.Item as={HashLink} to="#action4">EVENT2</NavDropdown.Item>
+                                <NavDropdown.Item as={HashLink} to="/event">EVENT1</NavDropdown.Item>
+                                <NavDropdown.Item as={HashLink} to="/event2">EVENT2</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title={<span><i class="fas fa-tachometer-alt"></i> DASHBOARD</span>} id="navbarScrollingDropdown">
                                 <NavDropdown.Item as={HashLink} to="#action3">ADMIN</NavDropdown.Item>
