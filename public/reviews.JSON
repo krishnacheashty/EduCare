@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Krishna Cheashty",
+        "review": "A great place for your little one to study",
+        "rating": "4.5"
+    },
+    {
+        "id": "2",
+        "name": "Emon Islam",
+        "review": "Teachers are really helpful",
+        "rating": "5"
+    },
+    {
+        "id": "3",
+        "name": "Forhad Akbar",
+        "review": "Teachers gives the individual attention needs by every kid",
+        "rating": "4.9"
+    },
+    {
+        "id": "4",
+        "name": "Johny Depp",
+        "review": "The students at this school are competitive",
+        "rating": "4.3"
+    },
+    {
+        "id": "5",
+        "name": "Rolling stone",
+        "review": "The school has a great athletic department",
+        "rating": "4.6"
+    },
+    {
+        "id": "6",
+        "name": "Amar John",
+        "review": "The teachers adequately lead and control the classroom",
+        "rating": "4.5"
+    }
+]
