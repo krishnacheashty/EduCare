@@ -1,6 +1,6 @@
 import * as actionTypes from '../conestants/eventConestants';
 
-import axios from 'axios';
+import axios from 'axios'; 
 
 export const getEvent=()=>async(dispatch)=>{
     try {
