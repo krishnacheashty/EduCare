@@ -6,7 +6,7 @@ export const getEventSecond=()=>async(dispatch)=>{
     try {
         dispatch({type:actionTypes.EVENTSECOND_ADDED_REQUEST});
 
-        const {data}=await axios.get(`http://localhost:5000/eventSecond`)
+        const {data}=await axios.get(`https://educareserver.herokuapp.com/eventSecond`)
         // console.log(data);
         
         dispatch({

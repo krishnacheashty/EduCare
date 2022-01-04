@@ -6,7 +6,7 @@ export const getTeacher=()=>async(dispatch)=>{
     try {
         dispatch({type:actionTypes.TEACHER_ADDED_REQUEST});
 
-        const {data}=await axios.get(`http://localhost:5000/teachers`)
+        const {data}=await axios.get(`https://educareserver.herokuapp.com/teachers`)
         // console.log(data);
         
         dispatch({

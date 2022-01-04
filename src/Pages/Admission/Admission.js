@@ -22,7 +22,7 @@ const Admission = () => {
     const onSubmit = data => {
 
 
-        axios.post('http://localhost:5000/student', data)
+        axios.post('https://educareserver.herokuapp.com/student', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Data entry successfull');
