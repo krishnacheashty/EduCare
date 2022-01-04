@@ -21,12 +21,7 @@ const Teacher = ({ teacher }) => {
 
                     <div className="ms-2">
                         <h5>{teacher.name}</h5>
-<<<<<<< HEAD
                         <small>{teacher.subject}</small>
-=======
-                        <small>{teacher.Position}</small>
-                        <p>{teacher.qualification}</p>
->>>>>>> secondary
                     </div>
                 </div>
 
