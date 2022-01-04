@@ -1,24 +1,36 @@
-import React, { useEffect, useState } from 'react';
-import Teacher from '../../Home/Teacher/Teacher';
+import AcademicTeacher from './AcademicTeacher';
+
+// use useEffect
+import { useEffect } from 'react';
+import { useSelector,useDispatch } from 'react-redux';
+// action
+import {getTeacher as listTeacher} from '../../../redux/actions/teacherAction';
+
 
 const AcademicTeachers = () => {
-    const [teachers, setTeachers] = useState([]);
+    const dispatch=useDispatch();
+        const getTeacher=useSelector(state=>state.getTeacher);
+        
+        //  console.log(getTeacher)
+
+     const {teacherItem,loading,error}=getTeacher;
+
 
     useEffect(() => {
-        fetch("/FakeData.JSON")
-            .then((res) => res.json())
-            .then((data) => {
-                setTeachers(data);
-            });
-    }, []);
+        dispatch(listTeacher()) 
+ 
+    }, [dispatch]);
+
+    
     return (
+        
         <div>
 
             <section className='client-feedback d-flex align-items-center justify-content-center'>
                 <div className='container mb-5'>
                     <div className='row my-5'>
-                        {teachers.map((teacher) => (
-                            <Teacher key={teacher.id} teacher={teacher} />
+                        {loading ? <h2>Loading ...</h2>:error ? <h2>{error}</h2>:teacherItem.map((teacher)  => (
+                            <AcademicTeacher key={teacher.id} teacher={teacher} />
                         ))}
                     </div>
 

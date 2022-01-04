@@ -1,18 +1,27 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Review from '../Review/Review';
 import "./Reviews.css"
+// use useEffect
+import { useEffect } from 'react';
+import { useSelector,useDispatch } from 'react-redux';
+
+// action
+import {getReview as listReview} from '../../../redux/actions/reviewAction'
 
 const Reviews = () => {
 
-    const [reviews, setReviews] = useState([]);
+    const dispatch=useDispatch();
+    const getReview=useSelector(state=>state.getReview);
+    
+    // console.log(getTeacher)
 
-    useEffect(() => {
-        fetch("/reviews.JSON")
-            .then((res) => res.json())
-            .then((data) => {
-                setReviews(data);
-            });
-    }, []);
+ const {reviewItem,loading,error}=getReview;
+
+
+useEffect(() => {
+    dispatch(listReview()) 
+
+}, [dispatch]);
 
 
     return (
@@ -25,7 +34,7 @@ const Reviews = () => {
                     </h3>
 
                     <div className='row my-5'>
-                        {reviews.map((review) => (
+                        {reviewItem.map((review) => (
                             <Review key={review.id} review={review} />
                         ))}
                     </div>

@@ -7,7 +7,7 @@ export const getTeacher=()=>async(dispatch)=>{
         dispatch({type:actionTypes.TEACHER_ADDED_REQUEST});
 
         const {data}=await axios.get(`http://localhost:5000/teachers`)
-        console.log(data);
+        // console.log(data);
         
         dispatch({
             type:actionTypes.TEACHER_ADDED_SUCCESS,

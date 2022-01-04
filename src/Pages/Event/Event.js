@@ -1,27 +1,39 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import './Event.css'
 
+import { useEffect } from "react";
+import {useSelector,useDispatch} from 'react-redux';
+
+import {getEvent as listEvent} from '../../redux/actions/eventAction';
+
 const Event = () => {
-    const [Events, setEvents] = useState([]);
-  useEffect(() => {
-    fetch("./EventData.JSON")
-      .then((res) => res.json())
-      .then((data) => setEvents(data));
-  }, []);
+  const dispatch=useDispatch();
+  const getEvent=useSelector(state=>state.getEvent);
+  
+  // console.log(getEvent)
+
+const {eventItem,loading,error}=getEvent;
+
+
+useEffect(() => {
+  dispatch(listEvent()) 
+
+}, [dispatch]);
+
     return (
         <Container>
       <Row>
-        {Events.map((Event) => (
+        {loading ? <h2>Loading ...</h2>:error ? <h2>{error}</h2>:eventItem.map((event) => (
           <Col xs={12} md={12} className="Event-box">
             <Row>
               <Col xs={12} md={8} className="Event-text">
                 <div>
-                  <h3 className="fs-1 text-success">{Event.date} <small className="text-success fs-4 ">{Event.month}</small></h3>
-                  <h1>{Event.name}</h1>
-                  <h6 className="text-secondary"> <i class="fas fa-map-marker-alt"></i> {Event.Place}</h6>
+                  <h3 className="fs-1 text-success">{event.date} <small className="text-success fs-4 ">{event.month}</small></h3>
+                  <h1>{event.name}</h1>
+                  <h6 className="text-secondary"> <i class="fas fa-map-marker-alt"></i> {event.Place}</h6>
                 <hr />
-                <p>{Event.details}</p>
+                <p>{event.details}</p>
                 </div>
               </Col>
               <Col
@@ -29,7 +41,7 @@ const Event = () => {
                 md={4}
                 style={{ paddingLeft: "0px", paddingRight: "0px" }}
               >
-                <img src={Event.img} alt="" />
+                <img src={event.img} alt="" />
               </Col>
             </Row>
           </Col>

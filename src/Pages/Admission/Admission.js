@@ -13,7 +13,7 @@ const Admission = () => {
     // handle redirected to user booking
     let history = useHistory();
     function handleRedirect() {
-        console.log("redirect here")
+        // console.log("redirect here")
         history.push('/home');
     }
 

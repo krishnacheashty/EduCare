@@ -1,18 +1,30 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import './Event.css'
 
+import { useEffect } from "react";
+import {useSelector,useDispatch} from 'react-redux';
+
+import {getEventSecond as listEventSecond} from '../../redux/actions/eventSecondAction';
+
 const Event2 = () => {
-    const [Events, setEvents] = useState([]);
-  useEffect(() => {
-    fetch("./EventData.JSON")
-      .then((res) => res.json())
-      .then((data) => setEvents(data));
-  }, []);
+  const dispatch=useDispatch();
+  const getEventSecond=useSelector(state=>state.getEventSecond);
+  
+  // console.log(getEvent)
+
+const {eventSecondItem,loading,error}=getEventSecond;
+
+
+useEffect(() => {
+  dispatch(listEventSecond()) 
+
+}, [dispatch]);
+  
     return (
         <Container>
       <Row>
-        {Events.map((Event) => (
+        {loading ? <h2>Loading ...</h2>:error ? <h2>{error}</h2>:eventSecondItem.map((Event) => (
           <Col xs={12} md={12} className="Event-box">
             <Row>
               <Col xs={12} md={8} className="Event-text">
