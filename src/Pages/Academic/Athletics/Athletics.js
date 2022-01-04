@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accordion, Col, Container, Nav, Row  } from 'react-bootstrap';
+import { Accordion, Nav} from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 
 const Athletics = () => {
