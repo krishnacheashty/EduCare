@@ -18,12 +18,12 @@ const Header = () => {
                                 <NavDropdown.Item href="#action3">UPPER</NavDropdown.Item>
                                 <NavDropdown.Item href="#action4">MIDDLE</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link as={Link} to="/admission"><i class="fas fa-users"></i> ADMISSION</Nav.Link>
-                            <NavDropdown title={<span><i class="far fa-calendar-check"></i> EVENTS</span>} id="navbarScrollingDropdown">
+                            <Nav.Link as={Link} to="/admission"><i className="fas fa-users"></i> ADMISSION</Nav.Link>
+                            <NavDropdown title={<span><i className="far fa-calendar-check"></i> EVENTS</span>} id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">EVENT1</NavDropdown.Item>
                                 <NavDropdown.Item href="#action4">EVENT2</NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title={<span><i class="fas fa-tachometer-alt"></i> DASHBOARD</span>} id="navbarScrollingDropdown">
+                            <NavDropdown title={<span><i className="fas fa-tachometer-alt"></i> DASHBOARD</span>} id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">ADMIN</NavDropdown.Item>
                                 <NavDropdown.Item href="#action4">TEACHER</NavDropdown.Item>
                                 <NavDropdown.Item href="#action5">STUDENT</NavDropdown.Item>
