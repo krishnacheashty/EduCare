@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import "./Header.css"
 
@@ -19,17 +18,6 @@ const Header = () => {
                                 <NavDropdown.Item as={HashLink} to ="/upper">UPPER</NavDropdown.Item>
                                 <NavDropdown.Item as={HashLink} to ="/middle">MIDDLE</NavDropdown.Item>
                             </NavDropdown>
-<<<<<<< HEAD
-                            <Nav.Link as={Link} to="/admission"><i className="fas fa-users"></i> ADMISSION</Nav.Link>
-                            <NavDropdown title={<span><i className="far fa-calendar-check"></i> EVENTS</span>} id="navbarScrollingDropdown">
-                                <NavDropdown.Item href="#action3">EVENT1</NavDropdown.Item>
-                                <NavDropdown.Item href="#action4">EVENT2</NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title={<span><i className="fas fa-tachometer-alt"></i> DASHBOARD</span>} id="navbarScrollingDropdown">
-                                <NavDropdown.Item href="#action3">ADMIN</NavDropdown.Item>
-                                <NavDropdown.Item href="#action4">TEACHER</NavDropdown.Item>
-                                <NavDropdown.Item href="#action5">STUDENT</NavDropdown.Item>
-=======
                             <Nav.Link as={HashLink} to="/admission"><i class="fas fa-users"></i> ADMISSION</Nav.Link>
                             <NavDropdown title={<span><i class="far fa-calendar-check"></i> EVENTS</span>} id="navbarScrollingDropdown">
                                 <NavDropdown.Item as={HashLink} to="/event">EVENT1</NavDropdown.Item>
@@ -39,7 +27,6 @@ const Header = () => {
                                 <NavDropdown.Item as={HashLink} to="#action3">ADMIN</NavDropdown.Item>
                                 <NavDropdown.Item as={HashLink} to="#action4">TEACHER</NavDropdown.Item>
                                 <NavDropdown.Item as={HashLink} to="#action5">STUDENT</NavDropdown.Item>
->>>>>>> secondary
                             </NavDropdown>
 
                         </Nav>
