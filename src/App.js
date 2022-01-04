@@ -4,12 +4,9 @@ import Arts from './Pages/Academic/Arts/Arts';
 import Athletics from './Pages/Academic/Athletics/Athletics';
 import Middle from './Pages/Academic/Middle/Middle';
 import Upper from './Pages/Academic/Upper/Upper';
-<<<<<<< HEAD
 import Admission from './Pages/Admission/Admission';
-=======
 import Event from './Pages/Event/Event';
 import Event2 from './Pages/Event/Event2';
->>>>>>> 1d5427c7239a0a46abd93874474502c331f0f44c
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
@@ -51,6 +48,7 @@ function App() {
           <Route path="/admission">
             <Admission></Admission>
           </Route>
+
 
           <Route path="/*">
             <NotFound></NotFound>
