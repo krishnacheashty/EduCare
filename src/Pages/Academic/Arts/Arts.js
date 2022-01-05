@@ -25,18 +25,10 @@ const Arts = () => {
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>FINE ARTS</Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum.
-                                <img className='w-100' src="http://limpidthemes.com/Themeforest/html/Pathshala/Pathshala-HTML/assets/img/curriculum/visual-arts.jpg" alt="" />
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute
+
+                                Located steps from the Chelsea galleries and not far from many top arts and cultural institutions, FIT draws on New York City’s resources to immerse students in an unparalleled intellectual and artistic experience. In this program, you’ll discover your personal creative voice and join a close-knit community of students and faculty who help you develop as an artist, inside the classroom and beyond.
+                                <img className='w-100' src="https://i.ibb.co/W3zvHqH/visual-arts1.jpg" alt="" />
+                                You’ll gain proficiency in a range of disciplines — painting, drawing, printmaking, and sculpture — and explore 3D design and multimedia. You will graduate with the skills to pursue a career in the applied arts or as a practicing artist.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
@@ -49,7 +41,7 @@ const Arts = () => {
                                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                                 est laborum.
-                                <img className='w-100' src="https://i.ibb.co/6bvjK8r/vartual-art.jpg" alt="" />
+                                <img className='w-100' src="https://i.ibb.co/Ns8t11T/visual-arts2.jpg" alt="" />
                                 Holor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -66,11 +58,8 @@ const Arts = () => {
                                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                                 est laborum.
-                                <img className='w-100' src="https://i.ibb.co/C29k7vD/yearin-Review-Best-Music.gif" alt="" />
-                                ponsectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute
+                                <img className='w-100' src="https://i.ibb.co/LYJ3mWK/yearin-Review-Best-Music.gif" alt="" />
+                                You’ll gain proficiency in a range of disciplines — painting, drawing, printmaking, and sculpture — and explore 3D design and multimedia. You will graduate with the skills to pursue a career in the applied arts or as a practicing artist.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
@@ -84,7 +73,7 @@ const Arts = () => {
                                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                                 est laborum.
-                                <img className='w-100' src="https://i.ibb.co/v4yxx7Y/theather.jpg" alt="" />;
+                                <img className='w-100' src="https://i.ibb.co/TW0z60d/theather.jpg" alt="" />;
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                 commodo consequat. Duis aute

@@ -31,7 +31,7 @@ const Athletics = () => {
                                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                                 est laborum.
-                                <img className='w-100' src="http://limpidthemes.com/Themeforest/html/Pathshala/Pathshala-HTML/assets/img/curriculum/football.jpg" alt="" />
+                                <img className='w-100' src="https://i.ibb.co/p1NXy2M/football.jpg" alt="" />
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -48,7 +48,7 @@ const Athletics = () => {
                                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                                 est laborum.
-                                <img className='w-100' src="http://limpidthemes.com/Themeforest/html/Pathshala/Pathshala-HTML/assets/img/curriculum/baseball.jpg" alt="" />
+                                <img className='w-100' src="https://i.ibb.co/JjdWZhN/baseball.jpg" alt="" />
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -65,7 +65,7 @@ const Athletics = () => {
                                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                                 est laborum.
-                                <img className='w-100' src="https://media.istockphoto.com/photos/tennis-players-playing-a-match-on-the-court-picture-id817164728?k=20&m=817164728&s=612x612&w=0&h=RCIpXUpXPlbILSNMerp0k3X0a1EQP5stFzRkrNKeZQg=" alt="" />
+                                <img className='w-100' src="https://i.ibb.co/vvwPmxp/Tennis-players-playing-a-match-on-the-court-on-a-sunny-day.jpg" alt="Tennis-players-playing-a-match-on-the-court-on-a-sunny-day" alt="" />
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
