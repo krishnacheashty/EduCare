@@ -1,21 +1,19 @@
-
-.review-background{
-  background-image: url(http://limpidthemes.com/Themeforest/html/Pathshala/Pathshala-HTML/assets/css/img/bg-img2.jpg);
+.review-background {
+  background-image: url(https://i.ibb.co/YyCyfzB/bg-img2.jpg);
 }
 
 .feedback-card .card {
   background-color: rgba(0, 10, 29, 0.5);
-    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    color: white;
-    /* border: none !important; */
-  }
-  
-  .feedback-card {
-    
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .feedback-card:hover {
-    transform: scale(1.04);
-  }
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+  /* border: none !important; */
+}
+
+.feedback-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.feedback-card:hover {
+  transform: scale(1.04);
+}
