@@ -7,12 +7,12 @@ const Arts = () => {
         <div className='container'>
            <h1 className='text-center my-5 sti'>Welcome to Arts Page</h1>
            <div className='row mt-5'>
-                <div className='col-sm-3 text-center'>
-                <Nav defaultActiveKey="/middle" className="flex-column">
-                <Nav.Link as={HashLink} to="/middle">Important Links</Nav.Link>
-                <Nav.Link as={HashLink} to="/arts">Arts</Nav.Link>
-                <Nav.Link as={HashLink} to="/athletics">Athletics</Nav.Link>
-            </Nav>
+           <div className='col-sm-2 text-start '>
+                    <Nav defaultActiveKey="/middle" className="flex-column border ">
+                        <Nav.Link as={HashLink} to="/middle" className='bg-success text-white'> Important Links</Nav.Link>
+                        <Nav.Link as={HashLink} to="/arts" className='border-bottom'><i class="fas fa-paint-brush"></i> Arts</Nav.Link>
+                        <Nav.Link as={HashLink} to="/athletics"><i class="fas fa-trophy "></i> Athletics</Nav.Link>
+                    </Nav>
 
                 </div>
                 <div className='col-sm-9'>
