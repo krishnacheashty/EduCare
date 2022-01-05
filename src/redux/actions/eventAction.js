@@ -2,23 +2,23 @@ import * as actionTypes from '../conestants/eventConestants';
 
 import axios from 'axios';
 
-export const getEvent=()=>async(dispatch)=>{
+export const getEvent = () => async (dispatch) => {
     try {
-        dispatch({type:actionTypes.EVENT_ADDED_REQUEST});
+        dispatch({ type: actionTypes.EVENT_ADDED_REQUEST });
 
-        const {data}=await axios.get(`http://localhost:5000/events`)
+        const { data } = await axios.get(`https://educareserver.herokuapp.com/events`)
         // console.log(data);
-        
+
         dispatch({
-            type:actionTypes.EVENT_ADDED_SUCCESS,
-            payload:data
+            type: actionTypes.EVENT_ADDED_SUCCESS,
+            payload: data
         });
-        
+
     } catch (error) {
         dispatch({
-            type:actionTypes.EVENT_ADDED_FAIL,
-            payload:error.response && error.response.data.massage ? error.response.data.massage :
-            error.massage,
+            type: actionTypes.EVENT_ADDED_FAIL,
+            payload: error.response && error.response.data.massage ? error.response.data.massage :
+                error.massage,
         })
     }
 }
