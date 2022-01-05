@@ -45,16 +45,16 @@ function App() {
             <Route path="/athletics">
               <Athletics></Athletics>
             </Route>
-            <PrivetRoute path="/event">
+            <Route path="/event">
               <Event></Event>
-            </PrivetRoute>
-            <PrivetRoute path="/event2">
-              <Event2></Event2>
-            </PrivetRoute>
-
-            <Route path="/admission">
-              <Admission></Admission>
             </Route>
+            <Route path="/event2">
+              <Event2></Event2>
+            </Route>
+
+            <PrivetRoute path="/admission">
+              <Admission></Admission>
+            </PrivetRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
