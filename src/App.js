@@ -48,9 +48,9 @@ function App() {
             <PrivetRoute path="/event">
               <Event></Event>
             </PrivetRoute>
-            <Route path="/event2">
+            <PrivetRoute path="/event2">
               <Event2></Event2>
-            </Route>
+            </PrivetRoute>
 
             <Route path="/admission">
               <Admission></Admission>
