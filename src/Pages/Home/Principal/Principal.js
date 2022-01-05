@@ -15,7 +15,11 @@ const Principal = () => {
                 <div className='col-sm-7 py-4'>
                     <p className='fw-bold text-muted'><i className="fas fa-award"></i> MEET OUR STAR <i className="fas fa-award"></i></p>
                     <h2>MEET OUR PRINCIPAL</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit laborum expedita accusantium minus commodi perspiciatis placeat consequuntur, adipisci libero perferendis quis qui? Hic tenetur temporibus omnis, veritatis, ratione distinctio, exercitationem impedit nesciunt explicabo accusantium consequuntur maiores? Eius, labore. Tempora nihil fuga laborum. Incidunt quam, eius consequatur facilis id, iste similique ipsam est beatae doloribus et. Eos natus officiis et laudantium. Tenetur laborum et rerum repellendus architecto placeat officia consequatur aspernatur laboriosam quaerat qui quis maiores, quasi, repellat exercitationem minus voluptatibus nostrum a magnam nesciunt veritatis vel! Placeat blanditiis, quos, cumque sed, fuga natus ad debitis nisi minima obcaecati voluptatem.</p>
+                    <p>As the principal, Mr. John is the face of the school. You’ll lead teachers and staff, set goals and ensure students meet their learning objectives. Overseeing your school’s day-to-day operations means handling disciplinary matters, managing a budget and hiring teachers and other personnel.
+
+                        Logistics, schedules, teacher and staff evaluations, and public relations fall under the purview of school principals. And you have to take the lead in planning Back to School Night and college admissions/jobs fairs. You will probably have the help of one or more assistant principals and/or auxiliary clerical workers.
+
+                        As principal, you’ll typically work out of an office in your school’s main building. But you’re not confined to an office — principals often sit in on classes, host school assemblies, attend off-site meetings and represent their school at conferences and local or regional events.</p>
                     <h5>Mr JOHN DOE, M.D, P.C</h5>
                     <Button variant="outline-success"><i className="fas fa-mouse-pointer"></i> KNOW MORE</Button>{' '}
                 </div>

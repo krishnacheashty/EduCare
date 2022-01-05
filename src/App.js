@@ -23,52 +23,51 @@ function App() {
   return (
     <div>
       <AuthProvider>
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
 
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/upper">
-            <Upper></Upper>
-          </Route>
-          <Route path="/middle">
-            <Middle></Middle>
-          </Route>
-          <Route path="/arts">
-            <Arts></Arts>
-          </Route>
-          <Route path="/athletics">
-            <Athletics></Athletics>
-          </Route>
-          <PrivetRoute path="/event">
-            <Event></Event>
-          </PrivetRoute>
-          <Route path="/event2">
-            <Event2></Event2>
-          </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/upper">
+              <Upper></Upper>
+            </Route>
+            <Route path="/middle">
+              <Middle></Middle>
+            </Route>
+            <Route path="/arts">
+              <Arts></Arts>
+            </Route>
+            <Route path="/athletics">
+              <Athletics></Athletics>
+            </Route>
+            <PrivetRoute path="/event">
+              <Event></Event>
+            </PrivetRoute>
+            <Route path="/event2">
+              <Event2></Event2>
+            </Route>
 
-          <Route path="/admission">
-            <Admission></Admission>
-          </Route>
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-          <Route path="/register">
-            <Register></Register>
-          </Route>
+            <Route path="/admission">
+              <Admission></Admission>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="/register">
+              <Register></Register>
+            </Route>
 
-
-          <Route path="/*">
-            <NotFound></NotFound>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router>
+            <Route path="/*">
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
       </AuthProvider>
 
 

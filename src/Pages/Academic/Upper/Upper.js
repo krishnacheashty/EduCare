@@ -8,7 +8,7 @@ const Upper = () => {
         <div className='container'>
             <h1 className='text-center my-5 sti'>Welcome to Academic Page</h1>
             <div className='row mt-5'>
-            <div className='col-sm-2 text-start '>
+                <div className='col-sm-2 text-start '>
                     <Nav defaultActiveKey="/middle" className="flex-column border ">
                         <Nav.Link as={HashLink} to="/middle" className='bg-success text-white'> Important Links</Nav.Link>
                         <Nav.Link as={HashLink} to="/arts" className='border-bottom'><i class="fas fa-paint-brush"></i> Arts</Nav.Link>
@@ -17,8 +17,9 @@ const Upper = () => {
 
                 </div>
                 <div className='col-sm-9'>
-                    <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit laborum expedita accusantium minus commodi perspiciatis placeat consequuntur, adipisci libero perferendis quis qui? Hic tenetur temporibus omnis, veritatis, ratione distinctio, exercitationem impedit nesciunt explicabo accusantium consequuntur maiores? Eius, labore. Tempora nihil fuga laborum. Incidunt quam, eius consequatur facilis id, iste similique ipsam est beatae doloribus et. Eos natus officiis et laudantium. Tenetur laborum et rerum repellendus architecto placeat officia consequatur aspernatur laboriosam quaerat qui quis maiores, quasi, repellat exercitationem minus voluptatibus nostrum a magnam nesciunt veritatis vel! Placeat blanditiis, quos, cumque sed, fuga natus ad debitis nisi minima obcaecati voluptatem.</p>
-                    <img className='w-100 py-4' src="http://limpidthemes.com/Themeforest/html/Pathshala/Pathshala-HTML/assets/img/curriculum/preschool.jpg" alt="" />
+                    <p className='text-secondary'>The only things I do to maintain my academic website up to date are uploading the newest publications and copying them into the news section whenever I post on social networks. On average, I probably log in about once a month and spend the time that I would otherwise waste chatting with my colleagues about their pets. About once a year, I make a more thorough cleanup and update the different sections. This probably adds up to half a days’ worth of time.</p>
+                    <img className='w-100 py-4'
+                        src="https://i.ibb.co/jDtGTfV/preschool.jpg" alt="" />
                     <p className='text-secondary'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
                     <hr />
                     <h1>EduCare Timings</h1>
