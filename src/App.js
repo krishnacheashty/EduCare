@@ -9,6 +9,11 @@ import Upper from './Pages/Academic/Upper/Upper';
 import Admission from './Pages/Admission/Admission';
 import Event from './Pages/Event/Event';
 import Event2 from './Pages/Event/Event2';
+import Admin from './Pages/Home/dashboard/Admin';
+import MakeAdmin from './Pages/Home/dashboard/makeAdmin/MakeAdmin';
+import MakeTeacher from './Pages/Home/dashboard/makeTeacher/MakeTeacher';
+import Student from './Pages/Home/dashboard/student/Student';
+import TeacherList from './Pages/Home/dashboard/teacherList/TeacherList';
 import Home from './Pages/Home/Home/Home';
 import Login from './Pages/LogIn/LogIn/Login';
 import PrivetRoute from './Pages/LogIn/PrivetRoute/PrivetRoute';
@@ -50,6 +55,21 @@ function App() {
           </PrivetRoute>
           <Route path="/event2">
             <Event2></Event2>
+          </Route>
+          <Route path="/admin">
+            <Admin/>
+          </Route>
+          <Route path="/student">
+            <Student/>
+          </Route>
+          <Route path="/makeAdmin">
+            <MakeAdmin/>
+          </Route>
+          <Route path="/makeTeacher">
+            <MakeTeacher/>
+          </Route>
+          <Route path="/teacher">
+            <TeacherList/>
           </Route>
 
           <Route path="/admission">

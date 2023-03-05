@@ -6,7 +6,7 @@ export const getReview=()=>async(dispatch)=>{
     try {
         dispatch({type:actionTypes.REVIEW_ADDED_REQUEST});
 
-        const {data}=await axios.get(`https://educareserver.herokuapp.com/review`)
+        const {data}=await axios.get(`https://edu-care-sarver.onrender.com/review`)
         // console.log(data);
         
         dispatch({

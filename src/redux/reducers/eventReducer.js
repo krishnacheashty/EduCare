@@ -17,7 +17,7 @@ export const getEventReducer=(state={eventItem:[]},action)=>{
             
         case actionTypes.EVENT_ADDED_FAIL:
             return{
-                loading:false,
+                loading:false, 
                 error:action.payload
             }
         // const item= action.payload;

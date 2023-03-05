@@ -7,6 +7,7 @@ import { getTeacherReducer } from "./reducers/teacherReducer";
 import { getReviewReducer } from "./reducers/reviewReducer";
 import { getEventReducer } from "./reducers/eventReducer";
 import { getEventSecondReducer } from "./reducers/eventSecondReducer";
+import { getStudentReducer } from "./reducers/studentReducer";
 
 
 
@@ -15,6 +16,7 @@ import { getEventSecondReducer } from "./reducers/eventSecondReducer";
     getReview:getReviewReducer,
     getEvent:getEventReducer,
     getEventSecond:getEventSecondReducer,
+    getStudent:getStudentReducer,
  });
 
 

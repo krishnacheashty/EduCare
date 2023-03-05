@@ -26,9 +26,9 @@ const Header = () => {
                                 <NavDropdown.Item as={HashLink} to="/event2">EVENT2</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title={<span><i class="fas fa-tachometer-alt"></i> DASHBOARD</span>} id="navbarScrollingDropdown">
-                                <NavDropdown.Item as={HashLink} to="#action3">ADMIN</NavDropdown.Item>
-                                <NavDropdown.Item as={HashLink} to="#action4">TEACHER</NavDropdown.Item>
-                                <NavDropdown.Item as={HashLink} to="#action5">STUDENT</NavDropdown.Item>
+                                <NavDropdown.Item as={HashLink} to="/admin">ADMIN</NavDropdown.Item>
+                                <NavDropdown.Item as={HashLink} to="/teacher">TEACHER</NavDropdown.Item>
+                                <NavDropdown.Item as={HashLink} to="/student">STUDENT</NavDropdown.Item>
                             </NavDropdown>
                             
 

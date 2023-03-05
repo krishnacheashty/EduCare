@@ -6,7 +6,7 @@ export const getEventSecond=()=>async(dispatch)=>{
     try {
         dispatch({type:actionTypes.EVENTSECOND_ADDED_REQUEST});
 
-        const {data}=await axios.get(`https://educareserver.herokuapp.com/eventSecond`)
+        const {data}=await axios.get(`https://edu-care-sarver.onrender.com/eventSecond`)
         // console.log(data);
         
         dispatch({
