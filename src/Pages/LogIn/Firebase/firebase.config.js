@@ -1,11 +1,13 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyA1WnZ1AlSPh8zEwHxKocK9Iz2aQPqvCWI",
-  authDomain: "edu-care-a8e28.firebaseapp.com",
-  projectId: "edu-care-a8e28",
-  storageBucket: "edu-care-a8e28.appspot.com",
-  messagingSenderId: "389488483845",
-  appId: "1:389488483845:web:5f486a2d900497e93b466c"
+    apiKey:process.env.REACT_APP_API_KEY,
+    authDomain:process.env.REACT_APP_AUTH_DOMAIN,
+    projectId:process.env.REACT_APP_PROJECT_ID,
+    storageBucket:process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId:process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId:process.env.REACT_APP_APP_ID,
   };
   
 
   export default firebaseConfig;
+
+  
