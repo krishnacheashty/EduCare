@@ -1,0 +1,33 @@
+[debug] [2023-03-05T19:02:04.843Z] ----------------------------------------------------------------------
+[debug] [2023-03-05T19:02:04.846Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\krishna cheashty\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-05T19:02:04.847Z] CLI Version:   11.24.0
+[debug] [2023-03-05T19:02:04.847Z] Platform:      win32
+[debug] [2023-03-05T19:02:04.847Z] Node Version:  v16.17.0
+[debug] [2023-03-05T19:02:04.849Z] Time:          Mon Mar 06 2023 01:02:04 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-03-05T19:02:04.849Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-05T19:02:04.971Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-05T19:02:04.972Z] > authorizing via signed-in user (krishnacheashty@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\projects for cv\myAsserments\edu-care
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 

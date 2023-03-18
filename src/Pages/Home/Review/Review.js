@@ -1,4 +1,4 @@
-import faker from 'faker';
+
 import React from 'react';
 
 const Review = ({ review }) => {

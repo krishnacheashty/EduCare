@@ -10,7 +10,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="http://limpidthemes.com/Themeforest/html/Pathshala/Pathshala-HTML/assets/img/slider/slide6.jpg"
+                        src="https://i.ibb.co/gzyLmJf/home-bg-1-1.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -23,7 +23,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="http://limpidthemes.com/Themeforest/html/Pathshala/Pathshala-HTML/assets/img/slider/slide4.jpg"
+                        src="https://i.ibb.co/MnsT8Mz/home-bg-6.jpg"
                         alt="Second slide"
                     />
 
@@ -37,7 +37,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="http://limpidthemes.com/Themeforest/html/Pathshala/Pathshala-HTML/assets/img/slider/slide5.jpg"
+                        src="https://i.ibb.co/M1d3DR6/backg-1.png"
                         alt="Third slide"
                     />
 
